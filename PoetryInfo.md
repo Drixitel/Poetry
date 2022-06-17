@@ -95,6 +95,7 @@ If `.venv` file generated but not in-project file:
 - run `poetry lock --no-update`
 - Delete `.venv` file 
 - `poetry install` (this reinstalls the `.venv`)
+- Last preformed 6/16/22: Worked fine
 
 # Check your python version in Poetry
 > Commands: 
