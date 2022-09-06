@@ -22,6 +22,14 @@ Note:
 - Jupyter Keymap
 - Better TOML
 
+### Install:
+
+1.  See install instructions in documentation
+2.  Add poetry to path then `restart` the terminal
+    - Needs info on my part
+3.  Update poetry configurations to have the enviornments in local projects
+4.  Ensure `python3.9` is used in the interpreter
+
 # Creating a Project
 
 - The project does not create an enviorment see that section.
@@ -139,3 +147,13 @@ If `.venv` file generated but not in-project file:
 - `poetry shell`
 - `python --version`
 - `exit`
+
+# Issues with Jupyter
+
+- Ensure extensions are added to new VM (if using one)
+- use `poetry add`:
+  - jupyterlab notebook jupyter
+
+# Pylance Issue
+
+- This can happen becuase the interpreter is not correctly selected
