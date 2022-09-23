@@ -70,17 +70,16 @@ If `.venv` file generated but not in-project file:
 
 2. delete it and continue with these steps.
 
-3. use command
-
-   - `poetry config virtualenvs.create false --local`
-
-4. View config
+3. View config
 
    - `poetry config --list`
+4. use command
+
+   - `poetry config virtualenvs.in-project true`
 
 5. Check for True:
 
-   - `virtualenvs.in-project = True`
+   - `virtualenvs.in-project = true`
 
 6. Now `poetry install` should produce a `.venv` file in your project folder
 
