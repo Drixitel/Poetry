@@ -24,9 +24,8 @@ Note:
 
 ### Install:
 
-1.  See install instructions in documentation
-2.  Add poetry to path then `restart` the terminal
-    - Needs info on my part
+1.  See install instructions in documentation (curl) for WSL/windows)
+2.  To add poetry to path `restart` the terminal
 3.  Update poetry configurations to have the enviornments in local projects
 4.  Ensure `python3.9` is used in the interpreter
 
@@ -73,6 +72,7 @@ If `.venv` file generated but not in-project file:
 3. View config
 
    - `poetry config --list`
+
 4. use command
 
    - `poetry config virtualenvs.in-project true`
