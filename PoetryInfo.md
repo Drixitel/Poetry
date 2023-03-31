@@ -24,7 +24,7 @@ Note:
 
 ### Install:
 
-1.  See install instructions in documentation (curl) for WSL/windows)
+1.  See install instructions in documentation (curl) for WSL/windows
 2.  To add poetry to path `restart` the terminal
 3.  Update poetry configurations to have the enviornments in local projects
 4.  Ensure `python3.9` is used in the interpreter
